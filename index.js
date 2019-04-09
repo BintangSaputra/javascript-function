@@ -76,11 +76,11 @@ const stars = starMark => {
     for (let a = starMark; a >= i; a--) {
       starRow += " ";
     }
-    for (let b = 0; b <= starMark * 2; b++) {
+    for (let b = 0; b <= i * 2; b++) {
       starRow += "*";
     }
     console.log(starRow);
   }
 };
 
-stars(2);
+stars(5);
