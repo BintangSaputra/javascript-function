@@ -101,3 +101,17 @@ console.log(betty);
 console.log(gamma);
 
 // ===========================================
+
+let iteration = 0;
+
+do {
+  console.log(iteration);
+  iteration += 5;
+} while (iteration < 100);
+
+let number = 10;
+
+do {
+  console.log(number);
+  number += 20;
+} while (number > 50);
