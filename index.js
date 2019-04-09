@@ -98,3 +98,6 @@ const gamma = showNameWithAge("Gamma", 30);
 
 console.log(alpha);
 console.log(betty);
+console.log(gamma);
+
+// ===========================================
