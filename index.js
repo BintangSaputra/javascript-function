@@ -71,11 +71,15 @@ addMarks("How are you", "?", 3);
 //  ===============================================
 
 const stars = starMark => {
-  let starRow = "";
   for (let i = 0; i <= starMark; i++) {
-    for (let a = 0; a <= i; a++) {
-      console.log((starRow += " *"));
+    let starRow = "";
+    for (let a = starMark; a >= i; a--) {
+      starRow += " ";
     }
+    for (let b = 0; b <= starMark * 2; b++) {
+      starRow += "*";
+    }
+    console.log(starRow);
   }
 };
 
