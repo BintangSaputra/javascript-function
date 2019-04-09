@@ -84,3 +84,17 @@ const stars = starMark => {
 };
 
 stars(5);
+
+//  ==================================================
+
+const showNameWithAge = (name = "Unknown", age = 0) => {
+  const nameWithAge = `${name} is ${age} year(s) old`;
+  return nameWithAge;
+};
+
+const alpha = showNameWithAge("Alpha", 11);
+const betty = showNameWithAge("Betty", 42);
+const gamma = showNameWithAge("Gamma", 30);
+
+console.log(alpha);
+console.log(betty);
